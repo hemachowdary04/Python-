@@ -1,0 +1,10 @@
+cost_of_wheat = 25
+cost_of_rice = 12
+quantity_of_wheat = 30
+quantity_of_rice = 50
+selling_price = ((cost_of_wheat)*(quantity_of_wheat)) + ((cost_of_rice)*(quantity_of_rice))
+print("selling price =",selling_price)
+subsidy = selling_price*(20/100)
+print("subsidy=",subsidy)
+final_price =  selling_price-subsidy 
+print("Total payable = ",final_price)                                                       

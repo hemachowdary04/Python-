@@ -1,0 +1,16 @@
+price_of_apples = 12
+price_of_Mangos = 34
+quantity_of_apples = 5*12
+quantity_of_Mangos = 3*12
+sp_of_apples = price_of_apples*quantity_of_apples
+sp_of_Mangos = price_of_Mangos*quantity_of_Mangos
+selling_price = sp_of_apples+sp_of_Mangos
+print("selling price=",selling_price)
+discount = (selling_price*2)/100
+print("Discount=",discount)
+sp_after_dis = selling_price-discount
+print("selling price after discount=",sp_after_dis)
+gst = (sp_after_dis*12.5)/100
+print("GST=",gst)
+sp_after_gst = sp_after_dis+gst
+print("total_payable=",sp_after_gst)
